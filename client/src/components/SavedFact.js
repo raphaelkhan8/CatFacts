@@ -13,7 +13,7 @@ const SavedFact = ({ catFact, afterDelete }) => {
     return (
         <tr>
             <td>{catFact}</td>
-            <td>
+            <td className="button">
                 <Button 
                     action={() => {
                         deleteFact(catFact)

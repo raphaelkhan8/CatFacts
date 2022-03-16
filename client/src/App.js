@@ -46,7 +46,6 @@ function App() {
               <tbody>
                 <tr>
                   <td className='tableRowHeader'>Saved Cat Facts</td>
-                  <td className='tableRowHeader'>Delete Fact</td>
                 </tr>
                 {savedFacts.map((savedFact, index) => (<SavedFact key={index} catFact={savedFact} afterDelete={getSavedFacts} />))}
               </tbody>
@@ -57,7 +56,6 @@ function App() {
         <tbody>
           <tr>
             <td className='tableRowHeader'>Facts</td>
-            <td className='tableRowHeader'>Save Fact</td>
           </tr>
           {catFacts.length ? catFacts.map((catFact, index) => 
             <CatFact key={index} catFact={catFact} afterSave={getSavedFacts} />

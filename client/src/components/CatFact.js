@@ -11,7 +11,7 @@ const CatFact = ({ catFact, afterSave }) => {
     return (
         <tr>
             <td>{catFact.fact}</td>
-            <td>
+            <td className="button">
                 <Button 
                     action={() => {
                         saveFact(catFact.fact)

@@ -52,10 +52,17 @@ td {
   border: 1pt solid black;
 }
 
+td.button {
+  border: white;
+}
+
 td.tableRowHeader {
   text-align: center;
   font-size: 20px;
   font-weight: bold;
+  border: 0;
+  position: relative;
+  left: 40px;
 }
 
 @keyframes App-logo-spin {
