@@ -9,10 +9,10 @@ const deleteFact = (fact) => {
     }
 }
 
-const SavedFact = ({ catFact, afterDelete }) => {
+const SavedFact = ({ i, catFact, afterDelete }) => {
     return (
         <tr>
-            <td>{catFact}</td>
+            <td>{i + 1}. {catFact}</td>
             <td className="button">
                 <Button 
                     action={() => {
