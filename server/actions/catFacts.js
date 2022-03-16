@@ -4,7 +4,7 @@ const { TOKEN } = process.env
 const getCatFacts = async () => {
     const config = {
         'accept': 'application/json',
-        'X-CSRF-TOKEN': TOKEN
+        'X-CSRF-TOKEN': 'JDMVPvPB2z0Y2Xu5NGzxS3bRG5xSJAEMnMivCwPx'
     }
 
     try {
